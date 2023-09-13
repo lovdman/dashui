@@ -36,8 +36,12 @@ Route::controller(\App\Http\Controllers\ProgramController::class)->group(functio
 Route::controller(\App\Http\Controllers\NavbarController::class)->group(function (){
     Route::get('/kpiscapaian/{circle}', 'indexCapaian')->name('capaian');
     Route::get('/kpistarget/{circle}', 'indexTarget')->name('target');
+    Route::get('/program/{circle}','Dashboard')->name('dashb');
 
 });
 
+//Route::controller(\App\Http\Controllers\Dashboard::class)->group(function(){
+//    Route::post()
+//})
 
 
