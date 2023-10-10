@@ -40,6 +40,8 @@ Route::controller(\App\Http\Controllers\NavbarController::class)->group(function
 
 });
 
+
+//Route::controller()
 //Route::controller(\App\Http\Controllers\Dashboard::class)->group(function(){
 //    Route::post()
 //})
